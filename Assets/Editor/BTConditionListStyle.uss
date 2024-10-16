@@ -1,0 +1,45 @@
+.button {
+    height: 50%;
+    white-space: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    transition-duration: 0.2s;
+    background-color: rgba(73, 134, 171, 255);
+    border-left-color: rgba(47, 84, 125, 255);
+    border-right-color: rgba(47, 84, 125, 255);
+    border-top-color: rgba(47, 84, 125, 255);
+    border-bottom-color: rgba(47, 84, 125, 255);
+    width: auto;
+}
+
+.button:hover {
+    scale: 1.03 1.07;
+    background-color: rgba(108, 188, 236, 255);
+}
+
+.section {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: var(--unity-colors-default-background);
+    align-items: stretch;
+}
