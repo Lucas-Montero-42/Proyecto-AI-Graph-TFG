@@ -24,6 +24,8 @@
     border-top-color: rgba(47, 84, 125, 255);
     border-bottom-color: rgba(47, 84, 125, 255);
     width: auto;
+    -unity-font-style: bold;
+    color: rgba(41, 58, 77, 255);
 }
 
 .button:hover {
@@ -42,4 +44,27 @@
     padding-bottom: 6px;
     background-color: var(--unity-colors-default-background);
     align-items: stretch;
+    color: rgba(255, 255, 255, 255);
+}
+
+.unity-scroll-view {
+    background-color: rgb(67, 138, 180);
+    color: rgb(196, 196, 196);
+    -unity-font-style: bold;
+    font-size: 12px;
+    white-space: normal;
+}
+
+.unity-list-view__item {
+    color: rgba(41, 58, 77, 255);
+}
+
+.unity-list-view__item:hover {
+    background-color: rgb(47, 84, 125);
+    color: rgba(210, 210, 210, 255);
+}
+
+.unity-list-view__item:selected {
+    background-color: rgb(47, 84, 125);
+    color: rgba(210, 210, 210, 255);
 }
