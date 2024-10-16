@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed116ea4eb231842beb542bf7ca3bbc, type: 3}
+  m_Name: 2FSGCondition
+  m_EditorClassIdentifier: 
+  FSG_conditions:
+  - name: Detected
+    value: 0
+  - name: Oriented
+    value: 0
+  - name: Other
+    value: 0
+  - name: MinShootDistance
+    value: 0
+  - name: MaxShootDistance
+    value: 0

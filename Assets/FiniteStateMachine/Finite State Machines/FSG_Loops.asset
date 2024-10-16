@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7007095678522318836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef61543b3974244cad44f8d24fb7ef6, type: 3}
+  m_Name: DebugState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: 8960288156856027125}
+  actor: {fileID: 0}
+  color: 0
+  state: 2
+  started: 0
+  guid: 4529388148c96db478254cba4aeb48ed
+  position: {x: 251.195, y: -3.0000305}
+  description: 
+  stateConditions: Oriented
+  debugMessage: Debug
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a967a091189ac634c95c90baa586b660, type: 3}
+  m_Name: FSG_Loops
+  m_EditorClassIdentifier: 
+  Start: {fileID: 7339799166019819404}
+  currentState: {fileID: 7339799166019819404}
+  MachineState: 0
+  states:
+  - {fileID: 7339799166019819404}
+  - {fileID: -7007095678522318836}
+  - {fileID: 8960288156856027125}
+  machineStarted: 1
+--- !u!114 &7339799166019819404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6c1433e5c7a8b4798ad8c17bd5ef77, type: 3}
+  m_Name: StartState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: -7007095678522318836}
+  children: []
+  actor: {fileID: 0}
+  color: 0
+  state: 0
+  started: 0
+  guid: 61f18465a12160e47a5588b557e99418
+  position: {x: 77, y: -3}
+  description: 
+--- !u!114 &8960288156856027125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34224517484d4f4f81854a19987574d, type: 3}
+  m_Name: WaitState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: -7007095678522318836}
+  actor: {fileID: 0}
+  color: 0
+  state: 0
+  started: 1
+  guid: 30306aea54724c44fb7defa27d7872fb
+  position: {x: 251, y: 93}
+  description: 
+  duration: 1

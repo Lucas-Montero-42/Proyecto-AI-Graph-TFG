@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1250647520200044544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6c1433e5c7a8b4798ad8c17bd5ef77, type: 3}
+  m_Name: StartState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: -426446490432163399}
+  children: []
+  actor: {fileID: 0}
+  color: 0
+  state: 2
+  started: 0
+  guid: 431a31a0412b11d46aa6b794e66df0a0
+  position: {x: 0, y: 0}
+  description: 
+--- !u!114 &-426446490432163399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2fdf6a1dac3654c8dc97b630d40c99, type: 3}
+  m_Name: GetNewPointState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: 1010016027334576731}
+  actor: {fileID: 0}
+  color: 0
+  state: 0
+  started: 0
+  guid: d2acce9545c524347bb1b5d7183a7973
+  position: {x: 153.99998, y: 93.14999}
+  description: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a967a091189ac634c95c90baa586b660, type: 3}
+  m_Name: FSG_PatrolPoints
+  m_EditorClassIdentifier: 
+  Start: {fileID: -1250647520200044544}
+  currentState: {fileID: -1250647520200044544}
+  MachineState: 0
+  states:
+  - {fileID: -1250647520200044544}
+  - {fileID: 1010016027334576731}
+  - {fileID: -426446490432163399}
+  machineStarted: 1
+--- !u!114 &1010016027334576731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18ad3ac7518292498989cb9178a1b05, type: 3}
+  m_Name: GoToState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: -426446490432163399}
+  actor: {fileID: 0}
+  color: 0
+  state: 0
+  started: 0
+  guid: 07c884b5ba7def942b280ba74141ec2a
+  position: {x: 194.00003, y: -18.88002}
+  description: 
+  lookProtocol: 1

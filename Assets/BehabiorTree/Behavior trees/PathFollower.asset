@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8106226449756832615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990e0ce4d07f1604d880be2020740e62, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: de1e257d4fefe0341b829f87b20e303a
+  position: {x: 0, y: 221}
+  actor: {fileID: 0}
+  description: 
+  Children:
+  - {fileID: -302817729505332856}
+  - {fileID: 6431743851243672352}
+--- !u!114 &-302817729505332856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dd9638c5237e44f99598b05e06483d, type: 3}
+  m_Name: Patrol
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fcdc5235e8d6c094496252e81df5467e
+  position: {x: -80, y: 342}
+  actor: {fileID: 0}
+  description: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc10a4cb923f80c4fa4a7628973c7690, type: 3}
+  m_Name: PathFollower
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 4420475705137059095}
+  treeState: 0
+  nodes:
+  - {fileID: 4420475705137059095}
+  - {fileID: 7832382002033834208}
+  - {fileID: -8106226449756832615}
+  - {fileID: -302817729505332856}
+  - {fileID: 6431743851243672352}
+--- !u!114 &4420475705137059095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07182d41cbda2604b980b3843b6653eb, type: 3}
+  m_Name: BTG_RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a1bcc6ae6e3139d4abeaa07bbba5a71d
+  position: {x: 0, y: 0}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: 7832382002033834208}
+--- !u!114 &6431743851243672352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45acc6419c40574b9e8491d681635cf, type: 3}
+  m_Name: GetNewPoint
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b0cad81734584194d80c25fb83ba82a5
+  position: {x: 80, y: 342}
+  actor: {fileID: 0}
+  description: 
+--- !u!114 &7832382002033834208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf339fc3701314eb73ed3ee68932f1, type: 3}
+  m_Name: LoopNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ebdf218191b810143aff5e521655f967
+  position: {x: 0, y: 110}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -8106226449756832615}

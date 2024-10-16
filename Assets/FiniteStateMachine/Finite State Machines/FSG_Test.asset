@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6018156310652142800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bfb211f9a914b4293dc91ab0b5d661, type: 3}
+  m_Name: SearchTargetState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: 2399853031173448076}
+  actor: {fileID: 0}
+  color: 1
+  state: 2
+  started: 0
+  guid: 758b844270764e744a28303697565ae4
+  position: {x: 53.576096, y: -0.00003232956}
+  description: 
+--- !u!114 &-2568296829294531490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef61543b3974244cad44f8d24fb7ef6, type: 3}
+  m_Name: DebugState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: 3655487898529893768}
+  actor: {fileID: 0}
+  color: 0
+  state: 2
+  started: 0
+  guid: c452d11c01459fc4c861bb65dc35ca7c
+  position: {x: 396.5761, y: -0.00003232956}
+  description: 
+  debugMessage: Debug2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a967a091189ac634c95c90baa586b660, type: 3}
+  m_Name: FSG_Test
+  m_EditorClassIdentifier: 
+  Start: {fileID: 7570168778300564714}
+  currentState: {fileID: 0}
+  MachineState: 0
+  states:
+  - {fileID: 7570168778300564714}
+  - {fileID: -6018156310652142800}
+  - {fileID: 2399853031173448076}
+  - {fileID: 3655487898529893768}
+  - {fileID: -2568296829294531490}
+  machineStarted: 1
+--- !u!114 &2399853031173448076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b7912d7be80814e85cc026ca8f3066, type: 3}
+  m_Name: LookAt3DState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: -2568296829294531490}
+  actor: {fileID: 0}
+  color: 3
+  state: 2
+  started: 0
+  guid: 902c4e88c598691499aefc3463ad6d19
+  position: {x: 232.57608, y: -0.00003232956}
+  description: 
+  _AngularSpeed: 180
+  BTG_Oriented: Oriented
+--- !u!114 &3655487898529893768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ca3dd6275002649a10930400f15c12, type: 3}
+  m_Name: ShootState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: 0}
+  children:
+  - {fileID: -6018156310652142800}
+  actor: {fileID: 0}
+  color: 5
+  state: 0
+  started: 1
+  guid: e0cbc07db5f9b3d40b511bd73445cd1e
+  position: {x: 232.57608, y: 103.99998}
+  description: 
+  Cooldown: 1
+--- !u!114 &7570168778300564714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6c1433e5c7a8b4798ad8c17bd5ef77, type: 3}
+  m_Name: StartState
+  m_EditorClassIdentifier: 
+  rootChild: {fileID: -6018156310652142800}
+  children: []
+  actor: {fileID: 0}
+  color: 0
+  state: 2
+  started: 0
+  guid: 56e8062d744d3df4090577ff15d80787
+  position: {x: -127, y: 0}
+  description: "Aqu\xED empieza la FSM"

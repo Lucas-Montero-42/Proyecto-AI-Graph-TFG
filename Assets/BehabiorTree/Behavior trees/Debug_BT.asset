@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2850713124589363650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07182d41cbda2604b980b3843b6653eb, type: 3}
+  m_Name: BTG_RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 196023a9bf5ccfb439f9ce2c03080b6a
+  position: {x: -14, y: 1.7200165}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -266675429866491760}
+--- !u!114 &-266675429866491760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990e0ce4d07f1604d880be2020740e62, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 191fcff35cc88c94ba462817c165c9ba
+  position: {x: -14, y: 119}
+  actor: {fileID: 0}
+  description: 
+  Children:
+  - {fileID: 7310721277966074077}
+  - {fileID: 6320879311219252807}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc10a4cb923f80c4fa4a7628973c7690, type: 3}
+  m_Name: Debug_BT
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -2850713124589363650}
+  treeState: 0
+  nodes:
+  - {fileID: -2850713124589363650}
+  - {fileID: -266675429866491760}
+  - {fileID: 7310721277966074077}
+  - {fileID: 6320879311219252807}
+--- !u!114 &6320879311219252807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8264eca2a414d2149a1aed6701bd8b92, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3f930afd7380afe4a872d57b2c8fc257
+  position: {x: -94, y: 257}
+  actor: {fileID: 0}
+  description: 
+  duration: 1
+--- !u!114 &7310721277966074077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1012cd85c5008fd4e80422f27335c696, type: 3}
+  m_Name: DebugNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 633552983bae3314c9bb31241c3548bd
+  position: {x: 75, y: 257}
+  actor: {fileID: 0}
+  description: 
+  Message: DEBUG

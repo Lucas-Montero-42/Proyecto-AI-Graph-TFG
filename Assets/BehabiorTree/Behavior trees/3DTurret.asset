@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8987616104442164359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf339fc3701314eb73ed3ee68932f1, type: 3}
+  m_Name: LoopNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c3293f3a99cc89941b618a9abf576df3
+  position: {x: -0.000016450882, y: 123.011345}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -3363939828774066994}
+--- !u!114 &-3363939828774066994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990e0ce4d07f1604d880be2020740e62, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a0fd2c9985d836e48bc871348e85a017
+  position: {x: -0.000019550323, y: 236}
+  actor: {fileID: 0}
+  description: 
+  Children:
+  - {fileID: 1614756881361952610}
+  - {fileID: 7725758873515685702}
+  - {fileID: 1731434579712116722}
+--- !u!114 &-457297019542722499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1425851ea8bac34487d89fa25dc9af4, type: 3}
+  m_Name: Shoot
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0ce238de1f2b6ed43b3eee124fb59bdb
+  position: {x: 159.99998, y: 467.1096}
+  actor: {fileID: 0}
+  description: 
+  Cooldown: 0.7
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc10a4cb923f80c4fa4a7628973c7690, type: 3}
+  m_Name: 3DTurret
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 7231856349011097917}
+  treeState: 0
+  nodes:
+  - {fileID: 7231856349011097917}
+  - {fileID: -8987616104442164359}
+  - {fileID: -457297019542722499}
+  - {fileID: 1614756881361952610}
+  - {fileID: -3363939828774066994}
+  - {fileID: 7725758873515685702}
+  - {fileID: 1731434579712116722}
+--- !u!114 &1614756881361952610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cee9fa38211ce4d8be6bcb12cffbf1, type: 3}
+  m_Name: SearchTarget
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 72f347219b25bff46a14551c12485ef5
+  position: {x: -160.00002, y: 355.10962}
+  actor: {fileID: 0}
+  description: 
+--- !u!114 &1731434579712116722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf339fc3701314eb73ed3ee68932f1, type: 3}
+  m_Name: LoopNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3c5e35c658c527648bb6e58deac9e2f5
+  position: {x: 159.99998, y: 355.10962}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -457297019542722499}
+--- !u!114 &7231856349011097917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07182d41cbda2604b980b3843b6653eb, type: 3}
+  m_Name: BTG_RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6342a0af6f71d754f836a35b0fbcafa5
+  position: {x: -0.000016450882, y: 6.011349}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -8987616104442164359}
+--- !u!114 &7725758873515685702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e484c28d0f3df40bf99c816b2153fb, type: 3}
+  m_Name: LookAt3D
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4d5253939cbc8a6458844d049ac47694
+  position: {x: 0.000014305115, y: 355.00003}
+  actor: {fileID: 0}
+  description: 
+  _AngularSpeed: 90
+  BTG_Oriented: Oriented

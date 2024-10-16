@@ -1,0 +1,195 @@
+#node-border {
+    background-color: rgb(56, 56, 56);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(17, 17, 17);
+    border-right-color: rgb(17, 17, 17);
+    border-top-color: rgb(17, 17, 17);
+    border-bottom-color: rgb(17, 17, 17);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#output {
+    align-items: center;
+    justify-content: flex-start;
+    left: auto;
+}
+
+#selection-border {
+    border-left-color: rgb(0, 134, 255);
+    border-right-color: rgb(0, 134, 255);
+    border-top-color: rgb(0, 134, 255);
+    border-bottom-color: rgb(0, 134, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 0;
+}
+
+:hover > #selection-border {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+:selected > #selection-border {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+:hover:selected > #selection-border {
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.node {
+    min-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#title {
+    align-items: center;
+    -unity-font-style: bold;
+    color: rgb(226, 226, 226);
+    font-size: 15px;
+    width: 150px;
+}
+
+#divider {
+    background-color: rgb(99, 99, 99);
+    min-height: 3px;
+}
+
+.action #input {
+    background-color: rgb(197, 51, 51);
+    align-items: center;
+}
+
+.decorator #input {
+    background-color: rgb(56, 195, 67);
+    align-items: center;
+}
+
+.composite #input {
+    background-color: rgb(31, 140, 212);
+    align-items: center;
+}
+
+.root #input {
+    background-color: rgb(166, 66, 188);
+    min-height: 25px;
+    align-items: center;
+}
+
+#node-state {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.running #node-state {
+    background-color: rgb(255, 228, 0);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.success #node-state {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgba(32, 207, 0, 0.54);
+}
+
+.failure #node-state {
+    background-color: rgba(255, 0, 0, 0.57);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#description {
+    align-items: stretch;
+    flex-wrap: wrap;
+    max-width: 150px;
+    -unity-text-align: upper-center;
+}
+
+#input {
+    max-width: none;
+    left: 5px;
+    align-items: center;
+    top: auto;
+    flex-direction: column-reverse;
+}
+
+#output {
+    max-width: none;
+    left: auto;
+    background-color: rgb(26, 26, 26);
+    align-items: center;
+    right: 4px;
+    flex-grow: 0;
+    flex-direction: column-reverse;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-width: auto;
+    flex-shrink: 0;
+}
+
+.decorator #output {
+    background-color: rgb(56, 195, 67);
+}
+
+.composite #output {
+    background-color: rgb(31, 140, 212);
+}
+
+.root #output {
+    background-color: rgb(166, 66, 188);
+}
