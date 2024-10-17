@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BTConditions
   m_EditorClassIdentifier: 
   BTG_conditions:
+  - name: Detected
+    value: 0
   - name: InShootRange
     value: 0
   - name: OutShootRange
-    value: 0
-  - name: Detected
     value: 0
   - name: Oriented
     value: 0

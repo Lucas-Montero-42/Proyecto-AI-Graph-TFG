@@ -113,9 +113,9 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: Alert sound
   Children:
-  - {fileID: -62954521136235432}
   - {fileID: -9164647648111221697}
   - {fileID: -8637157576237969980}
+  - {fileID: -62954521136235432}
 --- !u!114 &-7416810742528455488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,8 +326,8 @@ MonoBehaviour:
   description: 
   Children:
   - {fileID: 6851589799309885739}
-  - {fileID: -7636361549021314340}
   - {fileID: -9138453625728440177}
+  - {fileID: -7636361549021314340}
   - {fileID: 8287944621275188270}
 --- !u!114 &3161788947209563695
 MonoBehaviour:

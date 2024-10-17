@@ -9,6 +9,15 @@ using UnityEditor.UIElements;
 public class ConditionListEditor : Editor
 {
     public VisualTreeAsset visualTree;
+
+    private BTG_ConditionList conditionList;
+    private Button resetButton;
+
+    private void OnEnable()
+    {
+        conditionList = (BTG_ConditionList)target;
+    }
+
     public override VisualElement CreateInspectorGUI()
     {
         VisualElement root = new VisualElement();
@@ -16,6 +25,15 @@ public class ConditionListEditor : Editor
         // Añade los elementos de UIBuilder
         visualTree.CloneTree(root);
 
+        //Busca el botón en la jerarquía
+        resetButton = root.Q<Button>("ResetButton");
+        resetButton.RegisterCallback<ClickEvent>(OnResetButton);
+
         return root;
+    }
+
+    private void OnResetButton(ClickEvent clic)
+    {
+        conditionList.ResetAllConditions();
     }
 }

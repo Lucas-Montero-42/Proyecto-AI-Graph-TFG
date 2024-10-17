@@ -1,9 +1,3 @@
-.section {
-    background-color: var(--unity-colors-default-background);
-    align-items: stretch;
-    color: rgb(255, 255, 255);
-}
-
 .unity-scroll-view {
     background-color: rgb(67, 138, 180);
     -unity-font-style: bold;
@@ -19,6 +13,12 @@
 .unity-scroll-view__content-viewport {
     height: 100%;
     padding-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .unity-list-view__item {
@@ -27,10 +27,10 @@
     border-right-width: 3px;
     border-top-width: 3px;
     border-bottom-width: 3px;
-    border-left-color: rgba(30, 62, 99, 255);
-    border-right-color: rgba(30, 62, 99, 255);
-    border-top-color: rgba(30, 62, 99, 255);
-    border-bottom-color: rgba(30, 62, 99, 255);
+    border-left-color: rgb(30, 62, 99);
+    border-right-color: rgb(30, 62, 99);
+    border-top-color: rgb(30, 62, 99);
+    border-bottom-color: rgb(30, 62, 99);
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -50,9 +50,10 @@
 .unity-list-view__item:hover {
     background-color: rgb(30, 62, 99);
     color: rgb(210, 210, 210);
-    scale: 1.03 1.07;
+    scale: 1.06 1.07;
     transition-duration: 0.25s;
     letter-spacing: 2px;
+    padding-left: 13px;
 }
 
 .unity-list-view__item:selected {
@@ -61,7 +62,7 @@
 }
 
 .unity-label {
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .unity-base-text-field__input {
@@ -74,7 +75,7 @@
     border-bottom-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
     -unity-text-align: upper-left;
     padding-left: 5px;
 }
@@ -98,8 +99,8 @@
 
 .unity-button:hover {
     transition-duration: 0.25s;
-    scale: 1.1 1.1;
-    background-color: rgba(108, 188, 236, 255);
+    scale: 1.15 1.15;
+    background-color: rgb(108, 188, 236);
 }
 
 .unity-list-view__footer {
@@ -108,4 +109,63 @@
     border-right-width: 0;
     border-top-width: 0;
     border-bottom-width: 0;
+}
+
+.unity-list-view__reorderable-handle-bar {
+    border-left-color: rgb(76, 175, 233);
+    border-right-color: rgb(76, 175, 233);
+    border-top-color: rgb(76, 175, 233);
+    border-bottom-color: rgb(76, 175, 233);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(76, 175, 234);
+}
+
+.unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(100, 198, 255);
+}
+
+.unity-foldout__checkmark {
+    -unity-background-image-tint-color: rgb(35, 41, 77);
+}
+
+.button {
+    background-color: rgb(67, 138, 180);
+    height: 70px;
+    width: 200px;
+    align-items: auto;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(37, 96, 130);
+    border-right-color: rgb(37, 96, 130);
+    border-top-color: rgb(37, 96, 130);
+    border-bottom-color: rgb(37, 96, 130);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button:hover {
+    scale: 1.07 1.07;
+    transition-duration: 0.25s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    translate: 0 0;
 }

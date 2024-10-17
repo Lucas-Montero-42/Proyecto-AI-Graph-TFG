@@ -13,5 +13,13 @@ public class BTG_ConditionList : ScriptableObject
         public bool value;
     }
     public List<BTG_condition> BTG_conditions = new List<BTG_condition>();
+
+    public void ResetAllConditions()
+    {
+        foreach (var condition in BTG_conditions)
+        {
+            condition.value = false;
+        }
+    }
 }
 
