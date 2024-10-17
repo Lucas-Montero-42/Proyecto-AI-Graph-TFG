@@ -1,13 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
     <Style src="project://database/Assets/Editor/BTConditionListStyle.uss?fileID=7433441132597879392&amp;guid=67cc7ba0fe1c0534281ac20d01426c9a&amp;type=3#BTConditionListStyle" />
     <ui:VisualElement name="Pane" style="flex-direction: column; align-items: stretch;">
-        <ui:VisualElement name="Vars" style="height: auto;">
+        <ui:VisualElement name="Vars">
             <ui:Label text="Condition List" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 25px; -unity-text-align: upper-center; white-space: normal;" />
-            <uie:PropertyField binding-path="BTG_conditions" class="unity-scroll-view unity-list-view__recordable-item unity-list-view__recorderable-item unity-collection-view" style="background-color: rgb(49, 98, 154); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; opacity: 1; -unity-background-image-tint-color: rgb(255, 255, 255);" />
-        </ui:VisualElement>
-        <ui:VisualElement name="Buttons" style="height: 200px; flex-direction: column;">
-            <ui:Button text="Button" display-tooltip-when-elided="true" class="button" />
-            <ui:Button text="Button" display-tooltip-when-elided="true" class="button" style="-unity-text-align: middle-center;" />
+            <uie:PropertyField binding-path="BTG_conditions" class="unity-scroll-view unity-list-view__recordable-item unity-list-view__recorderable-item unity-collection-view unity-collectionview content-container" style="background-color: rgb(67, 138, 180); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; opacity: 1; -unity-background-image-tint-color: rgb(255, 255, 255); height: auto;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

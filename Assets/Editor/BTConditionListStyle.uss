@@ -1,70 +1,111 @@
-.button {
-    height: 50%;
-    white-space: normal;
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-bottom-width: 4px;
-    transition-duration: 0.2s;
-    background-color: rgba(73, 134, 171, 255);
-    border-left-color: rgba(47, 84, 125, 255);
-    border-right-color: rgba(47, 84, 125, 255);
-    border-top-color: rgba(47, 84, 125, 255);
-    border-bottom-color: rgba(47, 84, 125, 255);
-    width: auto;
-    -unity-font-style: bold;
-    color: rgba(41, 58, 77, 255);
-}
-
-.button:hover {
-    scale: 1.03 1.07;
-    background-color: rgba(108, 188, 236, 255);
-}
-
 .section {
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 6px;
-    padding-bottom: 6px;
     background-color: var(--unity-colors-default-background);
     align-items: stretch;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .unity-scroll-view {
     background-color: rgb(67, 138, 180);
-    color: rgb(196, 196, 196);
     -unity-font-style: bold;
     font-size: 12px;
-    white-space: normal;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: auto;
+    flex-grow: 0;
+}
+
+.unity-scroll-view__content-viewport {
+    height: 100%;
+    padding-bottom: 40px;
 }
 
 .unity-list-view__item {
-    color: rgba(41, 58, 77, 255);
+    color: rgb(19, 48, 79);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgba(30, 62, 99, 255);
+    border-right-color: rgba(30, 62, 99, 255);
+    border-top-color: rgba(30, 62, 99, 255);
+    border-bottom-color: rgba(30, 62, 99, 255);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(43, 113, 154);
+    -unity-font-style: bold;
 }
 
 .unity-list-view__item:hover {
-    background-color: rgb(47, 84, 125);
-    color: rgba(210, 210, 210, 255);
+    background-color: rgb(30, 62, 99);
+    color: rgb(210, 210, 210);
+    scale: 1.03 1.07;
+    transition-duration: 0.25s;
+    letter-spacing: 2px;
 }
 
 .unity-list-view__item:selected {
-    background-color: rgb(47, 84, 125);
-    color: rgba(210, 210, 210, 255);
+    background-color: rgb(30, 62, 99);
+    color: rgb(210, 210, 210);
+}
+
+.unity-label {
+    color: rgba(255, 255, 255, 255);
+}
+
+.unity-base-text-field__input {
+    background-color: rgb(30, 62, 99);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: rgba(255, 255, 255, 255);
+    -unity-text-align: upper-left;
+    padding-left: 5px;
+}
+
+.unity-button {
+    background-color: rgb(67, 138, 180);
+    border-left-color: rgb(30, 62, 99);
+    border-right-color: rgb(30, 62, 99);
+    border-top-color: rgb(30, 62, 99);
+    border-bottom-color: rgb(30, 62, 99);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    scale: 1 1;
+}
+
+.unity-button:hover {
+    transition-duration: 0.25s;
+    scale: 1.1 1.1;
+    background-color: rgba(108, 188, 236, 255);
+}
+
+.unity-list-view__footer {
+    background-color: rgb(67, 138, 180);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
 }
