@@ -1,17 +1,17 @@
 #node-border {
-    background-color: rgb(56, 56, 56);
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    border-left-color: rgb(17, 17, 17);
-    border-right-color: rgb(17, 17, 17);
-    border-top-color: rgb(17, 17, 17);
-    border-bottom-color: rgb(17, 17, 17);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-left-color: rgb(29, 29, 29);
+    border-right-color: rgb(29, 29, 29);
+    border-top-color: rgb(29, 29, 29);
+    border-bottom-color: rgb(29, 29, 29);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgba(56, 56, 56, 255);
 }
 
 #output {
@@ -41,49 +41,62 @@
 }
 
 :hover > #selection-border {
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-}
-
-:selected > #selection-border {
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-}
-
-:hover:selected > #selection-border {
     border-left-width: 4px;
     border-right-width: 4px;
     border-top-width: 4px;
     border-bottom-width: 4px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition-duration: 0.25s;
+}
+
+:selected > #selection-border {
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition-duration: 0.25s;
+}
+
+:hover:selected > #selection-border {
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition-duration: 0.25s;
 }
 
 .node {
     min-width: 150px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 #title {
     align-items: center;
     -unity-font-style: bold;
-    color: rgb(226, 226, 226);
-    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
     width: 150px;
+    letter-spacing: 6px;
+    padding-top: 6px;
 }
 
 #divider {
-    background-color: rgb(99, 99, 99);
     min-height: 3px;
+    background-color: rgb(29, 29, 29);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
 }
 
 .action #input {
@@ -152,6 +165,8 @@
     flex-wrap: wrap;
     max-width: 150px;
     -unity-text-align: upper-center;
+    color: rgba(255, 255, 255, 255);
+    -unity-font-style: bold-and-italic;
 }
 
 #input {
@@ -165,7 +180,6 @@
 #output {
     max-width: none;
     left: auto;
-    background-color: rgb(26, 26, 26);
     align-items: center;
     right: 4px;
     flex-grow: 0;
@@ -183,13 +197,24 @@
 }
 
 .decorator #output {
-    background-color: rgb(56, 195, 67);
+    -unity-text-outline-color: rgba(42, 42, 42, 255);
 }
 
 .composite #output {
-    background-color: rgb(31, 140, 212);
 }
 
 .root #output {
-    background-color: rgb(166, 66, 188);
+    background-color: rgba(56, 56, 56, 255);
+}
+
+.connectorBox {
+    -unity-text-outline-color: rgba(255, 0, 0, 255);
+    color: rgba(255, 0, 0, 255);
+    background-color: rgba(255, 0, 0, 255);
+}
+
+.root #title {
+    color: rgba(255, 255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 15px;
 }

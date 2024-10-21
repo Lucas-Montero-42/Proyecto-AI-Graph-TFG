@@ -14,7 +14,7 @@
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
-                <ui:VisualElement name="divider" class="horizontal" />
+                <ui:VisualElement name="divider" class="vertical" style="background-color: rgb(56, 56, 56);" />
                 <ui:Label display-tooltip-when-elided="true" name="description" text="This is a description" style="align-items: stretch; white-space: normal;" />
                 <ui:VisualElement name="output" />
             </ui:VisualElement>

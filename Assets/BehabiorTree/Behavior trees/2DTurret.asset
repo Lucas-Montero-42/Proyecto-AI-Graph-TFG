@@ -15,7 +15,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: a69f5825d4a1a2140b76805b8be5dcd7
-  position: {x: 0, y: 1.5200043}
+  position: {x: 20, y: -66.61}
   actor: {fileID: 0}
   description: "este es el nodo ra\xEDz"
   child: {fileID: 1970818427224273506}
@@ -34,7 +34,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: db0b33d2ba1c705408507188fc60a0f1
-  position: {x: 181, y: 368}
+  position: {x: 201, y: 377}
   actor: {fileID: 0}
   description: 
   child: {fileID: 3964928224130201839}
@@ -75,7 +75,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: e0a50b585c034a546a6c09e762541caf
-  position: {x: -170, y: 368}
+  position: {x: -161.73705, y: 384.99997}
   actor: {fileID: 0}
   description: Buscar al objetivo
 --- !u!114 &1970818427224273506
@@ -93,7 +93,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 0797a130e1517be4a9a930ddbbfeef40
-  position: {x: -0.00016784668, y: 119.87475}
+  position: {x: 20.000015, y: 76.0925}
   actor: {fileID: 0}
   description: 
   child: {fileID: 7328814955395045024}
@@ -112,7 +112,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: a309126e99f73cc49a29334de110fe93
-  position: {x: 181.00002, y: 499.4581}
+  position: {x: 201, y: 554}
   actor: {fileID: 0}
   description: 
   Cooldown: 0.5
@@ -131,7 +131,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 671d35ce18995ba41b281ddbc0f29860
-  position: {x: 0.000012397766, y: 245}
+  position: {x: 21.000008, y: 234.35388}
   actor: {fileID: 0}
   description: 
   Children:
@@ -153,7 +153,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 7721d95310ccba7448740764e734fafe
-  position: {x: 0.00007502365, y: 363}
+  position: {x: 28.000011, y: 413.9999}
   actor: {fileID: 0}
   description: "Rota hacia el objetivo hasta que est\xE9s orientado"
   _AngularSpeed: 180
