@@ -16,10 +16,10 @@ MonoBehaviour:
   - name: Detected
     value: 0
   - name: Oriented
-    value: 0
+    value: 1
   - name: Other
     value: 0
   - name: MinShootDistance
-    value: 0
+    value: 1
   - name: MaxShootDistance
     value: 0

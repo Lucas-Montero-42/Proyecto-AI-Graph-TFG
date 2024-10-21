@@ -15,7 +15,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: c3293f3a99cc89941b618a9abf576df3
-  position: {x: -0.000016450882, y: 123.011345}
+  position: {x: -3.9999905, y: 32.425686}
   actor: {fileID: 0}
   description: 
   child: {fileID: -3363939828774066994}
@@ -34,7 +34,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: a0fd2c9985d836e48bc871348e85a017
-  position: {x: -0.000019550323, y: 236}
+  position: {x: -4.000033, y: 186.17345}
   actor: {fileID: 0}
   description: 
   Children:
@@ -56,7 +56,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 0ce238de1f2b6ed43b3eee124fb59bdb
-  position: {x: 159.99998, y: 467.1096}
+  position: {x: 168, y: 511.36136}
   actor: {fileID: 0}
   description: 
   Cooldown: 0.7
@@ -134,7 +134,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 6342a0af6f71d754f836a35b0fbcafa5
-  position: {x: -0.000016450882, y: 6.011349}
+  position: {x: -3.9999492, y: -164.79129}
   actor: {fileID: 0}
   description: 
   child: {fileID: -8987616104442164359}

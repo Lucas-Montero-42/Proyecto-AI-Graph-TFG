@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BTG_conditions:
   - name: Detected
-    value: 0
+    value: 1
   - name: InShootRange
-    value: 0
+    value: 1
   - name: OutShootRange
-    value: 0
+    value: 1
   - name: Oriented
     value: 0

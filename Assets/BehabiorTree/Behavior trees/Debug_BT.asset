@@ -34,12 +34,12 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 191fcff35cc88c94ba462817c165c9ba
-  position: {x: -14, y: 119}
+  position: {x: -12.000006, y: 168.63509}
   actor: {fileID: 0}
   description: 
   Children:
-  - {fileID: 7310721277966074077}
   - {fileID: 6320879311219252807}
+  - {fileID: 7310721277966074077}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,10 +74,17 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 3f930afd7380afe4a872d57b2c8fc257
-  position: {x: -94, y: 257}
+  position: {x: -90.000015, y: 358.94815}
   actor: {fileID: 0}
   description: 
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 
+  h: {fileID: 0}
 --- !u!114 &7310721277966074077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +100,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 633552983bae3314c9bb31241c3548bd
-  position: {x: 75, y: 257}
+  position: {x: 78.99999, y: 358.94815}
   actor: {fileID: 0}
   description: 
   Message: DEBUG

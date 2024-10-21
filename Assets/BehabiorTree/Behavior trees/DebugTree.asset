@@ -19,6 +19,13 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 
+  h: {fileID: 0}
 --- !u!114 &-5650959278026756271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34,7 +41,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 99e431fe4e112134a9c46100a37e1bdf
-  position: {x: 123, y: -193.08499}
+  position: {x: 131.00003, y: -261.4756}
   actor: {fileID: 0}
   description: 
   child: {fileID: 925782243162308718}
@@ -57,6 +64,13 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: Texto de ejemplo
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 000000000000000000000000
+  h: {fileID: 0}
 --- !u!114 &-5179108222717789958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +128,13 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1 seg
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 
+  h: {fileID: 0}
 --- !u!114 &-1192249455061702909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +247,13 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1 seg
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 
+  h: {fileID: 0}
 --- !u!114 &8382593771338742051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +269,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 42cd4cedc66b5be49a93cfe6b1188837
-  position: {x: 123, y: -303.7375}
+  position: {x: 137.00005, y: -449.89737}
   actor: {fileID: 0}
   description: 
   child: {fileID: -5650959278026756271}
@@ -264,3 +292,10 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 
   duration: 1
+  a: 0
+  b: 
+  c: 0
+  d: 0
+  f: {x: 0, y: 0}
+  g: 
+  h: {fileID: 0}

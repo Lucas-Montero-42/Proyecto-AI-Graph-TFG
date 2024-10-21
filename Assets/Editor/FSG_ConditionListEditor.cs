@@ -5,17 +5,17 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-[CustomEditor(typeof (BTG_ConditionList))]
-public class ConditionListEditor : Editor
+[CustomEditor(typeof(FSG_ConditionList))]
+public class FSG_ConditionListEditor : Editor
 {
     public VisualTreeAsset visualTree;
 
-    private BTG_ConditionList BTGconditionList;
+    private FSG_ConditionList FSGconditionList;
     private Button resetButton;
 
     private void OnEnable()
     {
-        BTGconditionList = (BTG_ConditionList)target;
+        FSGconditionList = (FSG_ConditionList)target;
     }
 
     public override VisualElement CreateInspectorGUI()
@@ -34,6 +34,6 @@ public class ConditionListEditor : Editor
 
     private void OnResetButton(ClickEvent clic)
     {
-        BTGconditionList.ResetAllConditions();
+        FSGconditionList.ResetAllConditions();
     }
 }
