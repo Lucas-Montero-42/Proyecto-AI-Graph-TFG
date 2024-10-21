@@ -19,13 +19,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &-5650959278026756271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,17 +53,10 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 3ecbb9ee3a3cc7549b1ab992965befc3
-  position: {x: 42.99997, y: 239.79283}
+  position: {x: 59, y: 265}
   actor: {fileID: 0}
-  description: Texto de ejemplo
+  description: 1 segundo
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 000000000000000000000000
-  h: {fileID: 0}
 --- !u!114 &-5179108222717789958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,13 +114,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1 seg
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &-1192249455061702909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +129,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: c3cfaa5b072978b49801dc135c79d72d
-  position: {x: 352.99988, y: 64.00003}
+  position: {x: 360.99994, y: 72.00002}
   actor: {fileID: 0}
   description: 
   Children:
@@ -247,13 +226,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1 seg
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &8382593771338742051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,10 +264,3 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}

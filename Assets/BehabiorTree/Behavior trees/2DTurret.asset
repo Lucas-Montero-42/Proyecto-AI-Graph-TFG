@@ -75,7 +75,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: e0a50b585c034a546a6c09e762541caf
-  position: {x: -161.73705, y: 384.99997}
+  position: {x: -156.645, y: 373}
   actor: {fileID: 0}
   description: Buscar al objetivo
 --- !u!114 &1970818427224273506
@@ -131,7 +131,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 671d35ce18995ba41b281ddbc0f29860
-  position: {x: 21.000008, y: 234.35388}
+  position: {x: 18, y: 238.0975}
   actor: {fileID: 0}
   description: 
   Children:
@@ -153,7 +153,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 7721d95310ccba7448740764e734fafe
-  position: {x: 28.000011, y: 413.9999}
+  position: {x: 18, y: 393}
   actor: {fileID: 0}
   description: "Rota hacia el objetivo hasta que est\xE9s orientado"
   _AngularSpeed: 180

@@ -11,7 +11,7 @@
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    background-color: rgba(56, 56, 56, 255);
+    background-color: rgb(56, 56, 56);
 }
 
 #output {
@@ -88,6 +88,7 @@
     width: 150px;
     letter-spacing: 6px;
     padding-top: 6px;
+    white-space: normal;
 }
 
 #divider {
@@ -165,7 +166,7 @@
     flex-wrap: wrap;
     max-width: 150px;
     -unity-text-align: upper-center;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
     -unity-font-style: bold-and-italic;
 }
 
@@ -197,24 +198,24 @@
 }
 
 .decorator #output {
-    -unity-text-outline-color: rgba(42, 42, 42, 255);
+    -unity-text-outline-color: rgb(42, 42, 42);
 }
 
 .composite #output {
 }
 
 .root #output {
-    background-color: rgba(56, 56, 56, 255);
+    background-color: rgb(56, 56, 56);
 }
 
 .connectorBox {
-    -unity-text-outline-color: rgba(255, 0, 0, 255);
-    color: rgba(255, 0, 0, 255);
-    background-color: rgba(255, 0, 0, 255);
+    -unity-text-outline-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
 }
 
 .root #title {
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
     -unity-font-style: bold;
     font-size: 15px;
 }

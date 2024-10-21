@@ -3,4 +3,8 @@ GridBackground {
     --line-color: rgba(80, 120, 170, 0.15);
     --thick-line-color: rgba(80, 120, 170, 0.15);
     --spacing: 15;
+    border-left-color: rgb(154, 177, 196);
+    border-right-color: rgb(154, 177, 196);
+    border-top-color: rgb(154, 177, 196);
+    border-bottom-color: rgb(154, 177, 196);
 }
