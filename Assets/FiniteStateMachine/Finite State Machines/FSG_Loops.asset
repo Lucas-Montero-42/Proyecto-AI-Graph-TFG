@@ -22,7 +22,6 @@ MonoBehaviour:
   guid: 4529388148c96db478254cba4aeb48ed
   position: {x: 251.195, y: -3.0000305}
   description: 
-  stateConditions: Oriented
   debugMessage: Debug
 --- !u!114 &11400000
 MonoBehaviour:
@@ -64,7 +63,7 @@ MonoBehaviour:
   started: 0
   guid: 61f18465a12160e47a5588b557e99418
   position: {x: 77, y: -3}
-  description: 
+  description: adfdasdsafasadsdasdasfafsfasfasdasdfasdfsdf
 --- !u!114 &8960288156856027125
 MonoBehaviour:
   m_ObjectHideFlags: 0

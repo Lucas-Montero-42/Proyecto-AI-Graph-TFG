@@ -20,7 +20,7 @@ MonoBehaviour:
   state: 2
   started: 0
   guid: 758b844270764e744a28303697565ae4
-  position: {x: 53.576096, y: -0.00003232956}
+  position: {x: 52.850002, y: 0.0000019073486}
   description: 
 --- !u!114 &-2568296829294531490
 MonoBehaviour:
@@ -111,7 +111,7 @@ MonoBehaviour:
   state: 0
   started: 1
   guid: e0cbc07db5f9b3d40b511bd73445cd1e
-  position: {x: 232.57608, y: 103.99998}
+  position: {x: 233.00009, y: 101}
   description: 
   Cooldown: 1
 --- !u!114 &7570168778300564714

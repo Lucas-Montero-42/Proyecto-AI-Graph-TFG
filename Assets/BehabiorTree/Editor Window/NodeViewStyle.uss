@@ -127,38 +127,28 @@
     top: 0;
     right: 0;
     bottom: 0;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left-color: rgba(255, 0, 0, 255);
+    border-right-color: rgba(255, 0, 0, 255);
+    border-top-color: rgba(255, 0, 0, 255);
+    border-bottom-color: rgba(255, 0, 0, 255);
+    scale: 1.05 1.05;
+    transition-duration: 0.5s;
 }
 
 .running #node-state {
     background-color: rgb(255, 228, 0);
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
 }
 
 .success #node-state {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
     background-color: rgba(32, 207, 0, 0.54);
 }
 
 .failure #node-state {
     background-color: rgba(255, 0, 0, 0.57);
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
 }
 
 #description {
