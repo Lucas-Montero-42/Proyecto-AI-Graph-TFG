@@ -21,6 +21,18 @@ public static class PropertyDrawersHelper
         return temp.ToArray();
     }
 
+    public static string[] BTG_ConditionFloat()
+    {
+        var temp = new List<string>();
+        var asset = (BTG_ConditionList)AssetDatabase.LoadAssetAtPath("Assets/BehabiorTree/BTConditions.asset", typeof(BTG_ConditionList));
+
+        foreach (BTG_ConditionList.BTG_float c in asset.BTG_floats)
+        {
+            temp.Add(c.name);
+        }
+
+        return temp.ToArray();
+    }
 
     public static string[] FSG_Condition()
     {

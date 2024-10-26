@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(MovementVars))]
 public class RandomMovement : MonoBehaviour
 {
     private MovementVars movementVars;

@@ -56,13 +56,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1 segundo
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 00000000000000000000000000000000
-  h: {fileID: 0}
 --- !u!114 &-8106373377018218417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,13 +94,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 1
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &-7636361549021314340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,13 +287,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 0.1
   duration: 0.1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &1361855608453424921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +369,7 @@ MonoBehaviour:
   - {fileID: -8106373377018218417}
   - {fileID: -2718579945583080309}
   stateConditions: InShootRange
+  stateConditions2: Hambre
 --- !u!114 &4326955849499251474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,6 +396,7 @@ MonoBehaviour:
   - {fileID: 1219568767003456974}
   - {fileID: 8192471558752780820}
   stateConditions: Detected
+  stateConditions2: 
 --- !u!114 &6316545197943754055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +418,7 @@ MonoBehaviour:
   Children:
   - {fileID: 1361855608453424921}
   stateConditions: OutShootRange
+  stateConditions2: Hambre
 --- !u!114 &6851589799309885739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,13 +457,6 @@ MonoBehaviour:
   actor: {fileID: 0}
   description: 0.5 segundos
   duration: 1
-  a: 0
-  b: 
-  c: 0
-  d: 0
-  f: {x: 0, y: 0}
-  g: 
-  h: {fileID: 0}
 --- !u!114 &8287944621275188270
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2668516877398110637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155b987d7f07f1c4bb19e70d1fe2e960, type: 3}
+  m_Name: BoolSelector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 34cac48ebdd83d242bbacaafc1c2921d
+  position: {x: -301.99997, y: 312.98868}
+  actor: {fileID: 0}
+  description: 
+  Children: []
+  stateConditions: Detected
+--- !u!114 &-2167752887838056501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990e0ce4d07f1604d880be2020740e62, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6c322bfc318537b4185303a77af8fbc4
+  position: {x: 2.0000076, y: 136.00003}
+  actor: {fileID: 0}
+  description: 
+  Children:
+  - {fileID: 2245698976879052730}
+--- !u!114 &-388766661360256535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5418652bfb5edf3499daf8b7b8a0a298, type: 3}
+  m_Name: FloatSelector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5db399f140de84f499375805d1ab2194
+  position: {x: -384.05307, y: 202.00009}
+  actor: {fileID: 0}
+  description: Hambre
+  Children: []
+  SelectorValue: Hambre
+  Threshold: 5
+  condition: 3
+--- !u!114 &-319540498922809264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf339fc3701314eb73ed3ee68932f1, type: 3}
+  m_Name: LoopNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2b712c2d25036d549b406fb5bf94f907
+  position: {x: 10.00001, y: -22.0039}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -2167752887838056501}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc10a4cb923f80c4fa4a7628973c7690, type: 3}
+  m_Name: SimsTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 8509479768196806541}
+  treeState: 0
+  nodes:
+  - {fileID: 8509479768196806541}
+  - {fileID: 7410455435210429881}
+  - {fileID: 8824564919105366309}
+  - {fileID: -388766661360256535}
+  - {fileID: -319540498922809264}
+  - {fileID: -2167752887838056501}
+  - {fileID: 2245698976879052730}
+  - {fileID: -2668516877398110637}
+  - {fileID: 1573532854514633311}
+--- !u!114 &1573532854514633311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf79cc9d9ab20040bebfcf9c9beec01, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b8405bca8acac1d4b9d9895a14f88cd8
+  position: {x: 0, y: 0}
+  actor: {fileID: 0}
+  description: 
+  Children: []
+  stateConditions: 
+  stateConditions2: 
+--- !u!114 &2245698976879052730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8264eca2a414d2149a1aed6701bd8b92, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2f973e389af9cef4abb143f0e5b7b52b
+  position: {x: 226, y: 338.9998}
+  actor: {fileID: 0}
+  description: 2segu
+  duration: 2
+--- !u!114 &7410455435210429881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1012cd85c5008fd4e80422f27335c696, type: 3}
+  m_Name: DebugNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 420ecd6aff66734488bb00b65e6d50c9
+  position: {x: -137.99998, y: 464.77136}
+  actor: {fileID: 0}
+  description: Hambre > 5
+  Message: Hambre > 5
+--- !u!114 &8509479768196806541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07182d41cbda2604b980b3843b6653eb, type: 3}
+  m_Name: BTG_RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: c91ead79a24c21b4eba3f4bac6d9e0e1
+  position: {x: 9.999996, y: -183.07065}
+  actor: {fileID: 0}
+  description: 
+  child: {fileID: -319540498922809264}
+--- !u!114 &8824564919105366309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1012cd85c5008fd4e80422f27335c696, type: 3}
+  m_Name: DebugNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e6ce33828f3d21b42bdfc36ddbec63a8
+  position: {x: 132.00003, y: 477.77136}
+  actor: {fileID: 0}
+  description: Hambre <= 5
+  Message: Hambre <= 5

@@ -12,7 +12,16 @@ public class BTG_ConditionList : ScriptableObject
         public string name;
         public bool value;
     }
+    [Serializable]
+    public class BTG_float
+    {
+        public string name;
+        public float value;
+        public float max;
+        public float min;
+    }
     public List<BTG_condition> BTG_conditions = new List<BTG_condition>();
+    public List<BTG_float> BTG_floats = new List<BTG_float>();
 
     public void ResetAllConditions()
     {

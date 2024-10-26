@@ -7,6 +7,9 @@ public class Selector : BTG_CompositeNode
     [StringInList(typeof(PropertyDrawersHelper), "BTG_Condition")]
     public string stateConditions;
 
+    [StringInList(typeof(PropertyDrawersHelper), "BTG_ConditionFloat")]
+    public string stateConditions2;
+
     private int current;
 
     protected override void OnStart()

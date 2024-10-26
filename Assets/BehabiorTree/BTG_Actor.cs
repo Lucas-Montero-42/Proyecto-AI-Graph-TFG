@@ -50,6 +50,31 @@ public class BTG_Actor : MonoBehaviour
         Debug.LogError("Variable '" + _name + "' not found");
         return false;
     }
+
+    public void SetFloat(string _name, float _value)
+    {
+        foreach (var i in conditionList.BTG_floats)
+        {
+            if (i.name == _name)
+            {
+                i.value = _value;
+                return;
+            }
+        }
+        Debug.LogError("Variable '" + _name + "' not found");
+    }
+    public float GetFloat(string _name)
+    {
+        foreach (var i in conditionList.BTG_floats)
+        {
+            if (i.name == _name)
+            {
+                return i.value;
+            }
+        }
+        Debug.LogError("Variable '" + _name + "' not found");
+        return 0;
+    }
     //
 
     void Start()

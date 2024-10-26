@@ -13,12 +13,8 @@ MonoBehaviour:
   m_Name: 2FSGCondition
   m_EditorClassIdentifier: 
   FSG_conditions:
-  - name: Detected
-    value: 0
   - name: Oriented
     value: 1
-  - name: Other
-    value: 0
   - name: MinShootDistance
     value: 1
   - name: MaxShootDistance

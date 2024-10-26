@@ -23,3 +23,5 @@ MonoBehaviour:
     value: 0
   - name: MaxShootDistance
     value: 0
+  - name: MaxShootDistance
+    value: 0
